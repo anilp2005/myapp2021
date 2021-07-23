@@ -1,6 +1,5 @@
 node{
- {
-  stage('SCM Checkout'){
+ {stage('SCM Checkout'){
     git 'https://github.com/anilp2005/myapp2021'
     }
   }
